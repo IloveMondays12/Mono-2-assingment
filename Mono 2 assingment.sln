@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono 2 assingment", "Mono 2 assingment.csproj", "{BCE98351-23EC-4B78-8FE9-EBBBFBB45611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE98351-23EC-4B78-8FE9-EBBBFBB45611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE98351-23EC-4B78-8FE9-EBBBFBB45611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE98351-23EC-4B78-8FE9-EBBBFBB45611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE98351-23EC-4B78-8FE9-EBBBFBB45611}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {759046DF-804B-4267-A78F-77607E785C5A}
+	EndGlobalSection
+EndGlobal
