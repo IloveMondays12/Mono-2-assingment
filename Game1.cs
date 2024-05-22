@@ -9,6 +9,7 @@ namespace Mono_2_assingment
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         Texture2D rectText, circleText;
+        SpriteFont speech;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -33,6 +34,7 @@ namespace Mono_2_assingment
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             circleText = Content.Load<Texture2D>("circle");
             rectText = Content.Load<Texture2D>("rectangle");
+            speech = Content.Load<SpriteFont>("File");
             // TODO: use this.Content to load your game content here
         }
 
@@ -65,6 +67,7 @@ namespace Mono_2_assingment
             _spriteBatch.Draw(rectText, new Rectangle(350, 240, 10, 20), Color.White);
             _spriteBatch.Draw(rectText, new Rectangle(380, 240, 10, 20), Color.White);
             _spriteBatch.Draw(rectText, new Rectangle(410, 240, 10, 20), Color.White);
+            _spriteBatch.DrawString(speech, ("The soul is \nNOT SO \nVIBRANT"), new Vector2(10, 20), Color.AliceBlue);
             _spriteBatch.End();
             base.Draw(gameTime);
         }
