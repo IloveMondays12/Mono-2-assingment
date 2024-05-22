@@ -9,7 +9,6 @@ namespace Mono_2_assingment
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         Texture2D rectText, circleText;
-
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -58,6 +57,14 @@ namespace Mono_2_assingment
             _spriteBatch.Draw(circleText, new Rectangle(360, 20, 50, 70), Color.Black);
             _spriteBatch.Draw(circleText, new Rectangle(260, 40, 25, 35), Color.White);
             _spriteBatch.Draw(circleText, new Rectangle(370, 40, 25, 35), Color.White);
+            _spriteBatch.Draw(circleText, new Rectangle(250, 190, 250, 150), Color.DarkRed);
+            _spriteBatch.Draw(rectText, new Rectangle(250,190,250,50), Color.Beige);
+            _spriteBatch.Draw(rectText, new Rectangle(260, 240, 10, 20), Color.White);
+            _spriteBatch.Draw(rectText, new Rectangle(290, 240, 10, 20), Color.White);
+            _spriteBatch.Draw(rectText, new Rectangle(320, 240, 10, 20), Color.White);
+            _spriteBatch.Draw(rectText, new Rectangle(350, 240, 10, 20), Color.White);
+            _spriteBatch.Draw(rectText, new Rectangle(380, 240, 10, 20), Color.White);
+            _spriteBatch.Draw(rectText, new Rectangle(410, 240, 10, 20), Color.White);
             _spriteBatch.End();
             base.Draw(gameTime);
         }
